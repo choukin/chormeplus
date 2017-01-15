@@ -44,7 +44,7 @@ Chrome扩展的Manifest必须包含name、version和manifest_version属性，目
         }
     ],
     "options_page": "options.html",
-    "permissions": [
+    "permissions": [//声明需要跨域的域名
         "*://www.google.com/*"
     ],
     "web_accessible_resources": [
